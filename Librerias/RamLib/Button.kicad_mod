@@ -1,0 +1,103 @@
+(footprint "Button"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "SW*"
+		(at 0 -0.05 0)
+		(layer "F.SilkS")
+		(uuid "643bece3-b26f-4891-832a-8efbb0bc59c2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Button"
+		(at 0 -2.59 0)
+		(layer "F.Fab")
+		(uuid "1c25cd48-d58b-43f0-b619-a78b1441a51b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "84a46bf9-1f2c-4e47-89f5-390171d53d74")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6d0fd6a6-ac47-4e8b-874b-45959c5218bb")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_circle
+		(center 0 -0.05)
+		(end -3.81 0.585)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "800ecc03-65ed-4b35-83ee-50bd997dd700")
+	)
+	(fp_circle
+		(center 0 -0.05)
+		(end -1.905 -0.05)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "b14050e7-3e2b-427f-bb26-2a8a15bef4c6")
+	)
+	(pad "1" thru_hole circle
+		(at -4.7 0)
+		(size 2.1 2.1)
+		(drill 0.762)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "1188922c-413d-4018-8ba1-106f102eda3f")
+	)
+	(pad "2" thru_hole circle
+		(at 4.625 0)
+		(size 2.1 2.1)
+		(drill 0.762)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "aa314dd1-9373-41c8-93ac-822fef392c69")
+	)
+	(embedded_fonts no)
+	(model "Button_6.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

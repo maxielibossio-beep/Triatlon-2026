@@ -1,0 +1,309 @@
+(footprint "Pololu_Micro_Bracket_Wheel_42mm"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Pololu Micro Gear Motor W/Mount")
+	(property "Reference" "Pololu_Micro_Gear_Motor"
+		(at 0.3175 -8.001 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "6a66f9bb-652f-4979-a31d-8df938b4dbac")
+		(effects
+			(font
+				(size 1.524 1.524)
+				(thickness 0.3048)
+			)
+		)
+	)
+	(property "Value" "VAL**"
+		(at 0.5715 -5.3975 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "63279e45-7c18-4563-ba10-f15101d58949")
+		(effects
+			(font
+				(size 1.524 1.524)
+				(thickness 0.3048)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d58aaeb0-f0ff-4b06-baa7-a06d1f0e3382")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1c28119f-dac6-476e-b63c-07f6d1b67c95")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a98b11a1-a414-422e-9f9c-cc154c27a212")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -12.75 0)
+		(end -7.75 0)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "B.SilkS")
+		(uuid "cd26b0ba-5218-4baf-a225-a9f7f6bdf962")
+	)
+	(fp_line
+		(start -10.25 -2.5)
+		(end -10.25 2.5)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "B.SilkS")
+		(uuid "578f96b6-8b67-4b84-a732-cf4dfcea2d9b")
+	)
+	(fp_line
+		(start 7.75 0)
+		(end 12.75 0)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "B.SilkS")
+		(uuid "e2824c46-3763-45a6-b0bf-e6ae1a2164c0")
+	)
+	(fp_line
+		(start 10.25 -2.5)
+		(end 10.25 2.5)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "B.SilkS")
+		(uuid "0524edbe-3954-4997-9f68-78d9cf329dbb")
+	)
+	(fp_circle
+		(center -10.25 0)
+		(end -7.75 0)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(fill none)
+		(layer "B.SilkS")
+		(uuid "cd9c4e78-b0f8-45bb-8f27-f152ba516588")
+	)
+	(fp_circle
+		(center 10.25 0)
+		(end 12.75 0)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(fill none)
+		(layer "B.SilkS")
+		(uuid "d93ee72f-363e-4945-8bf9-62c2917ef860")
+	)
+	(fp_line
+		(start -14.5 -7.5)
+		(end -14.5 7.5)
+		(stroke
+			(width 0.3048)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "95f9c946-567a-410d-ae5f-87f43c82ed06")
+	)
+	(fp_line
+		(start -14.5 7.5)
+		(end 14.5 7.5)
+		(stroke
+			(width 0.3048)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0e5465f1-631c-403c-8f4f-1ab025055be0")
+	)
+	(fp_line
+		(start -12.75 0)
+		(end -7.75 0)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "be11fadf-f5c9-4136-a322-a31efa9f39c3")
+	)
+	(fp_line
+		(start -10.25 -2.5)
+		(end -10.25 2.5)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b5af5bbf-d0c6-409e-b327-57d7054f5d62")
+	)
+	(fp_line
+		(start 7.75 0)
+		(end 12.75 0)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d38b4876-3a1b-441b-b561-2a9f93f32238")
+	)
+	(fp_line
+		(start 10.25 -2.5)
+		(end 10.25 2.5)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "18759efc-6fcc-46b8-a689-42c237e6f015")
+	)
+	(fp_line
+		(start 14.5 -7.5)
+		(end -14.5 -7.5)
+		(stroke
+			(width 0.3048)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e9f53252-5f2a-41c8-9212-a713d41f419f")
+	)
+	(fp_line
+		(start 14.5 7.5)
+		(end 14.5 -7.5)
+		(stroke
+			(width 0.3048)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ccd6f7a5-925f-42e4-8ad2-b78516225f47")
+	)
+	(fp_circle
+		(center -10.25 0)
+		(end -7.75 0)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "3c68b495-6098-4769-bdb4-c9b1bca5274c")
+	)
+	(fp_circle
+		(center 10.25 0)
+		(end 12.75 0)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "14172198-4614-4959-94ac-5fefa22e197b")
+	)
+	(fp_line
+		(start -12.5 -50.5)
+		(end 12.5 -50.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "09570a31-4381-456a-bb83-a27ec9b4703b")
+	)
+	(fp_line
+		(start -12.5 -7.5)
+		(end -12.5 -50.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "65632dcc-95c1-4e9d-89a2-d17e252c4eb5")
+	)
+	(fp_line
+		(start 0 -7.5)
+		(end -12.5 -7.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "a4a0873f-952c-40b9-a7c5-eaabdaf51292")
+	)
+	(fp_line
+		(start 12.5 -50.5)
+		(end 12.5 -7.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "292ec041-5ba4-4f25-bfa8-93ebf0fc14ad")
+	)
+	(fp_line
+		(start 12.5 -7.5)
+		(end 0 -7.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "6a212772-b2ec-4950-a327-791e6f27017e")
+	)
+	(pad "" thru_hole circle
+		(at 10.25 0)
+		(size 3 3)
+		(drill 3)
+		(layers "*.Cu" "F.SilkS")
+		(remove_unused_layers no)
+		(uuid "54b0bfc0-84a2-4bc7-9975-d7cc4e0f087f")
+	)
+	(pad "1" thru_hole circle
+		(at -10.25 0)
+		(size 3 3)
+		(drill 3)
+		(layers "*.Cu" "F.SilkS")
+		(remove_unused_layers no)
+		(uuid "d80da4c2-8b45-4a6f-87b2-42c7be4df309")
+	)
+	(model "Wheel_42mm.STEP"
+		(offset
+			(xyz 2 -29 8)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 180)
+		)
+	)
+)

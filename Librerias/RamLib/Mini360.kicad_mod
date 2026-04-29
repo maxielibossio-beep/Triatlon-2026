@@ -1,0 +1,199 @@
+(footprint "Mini360"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "STEP1"
+		(at 5.949 8.749 180)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "8d0b9f02-b385-46f5-952e-b32783a56e11")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "~"
+		(at 6 9 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "7a5f9d9f-a099-49ec-b3f7-82da64c7598e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "89deb086-2a0e-440e-b13a-9e24602125f6")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e402d51e-bf2f-423d-aea6-9835509869eb")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start 0 0)
+		(end 12 18)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "3e0a41c1-3cc6-4c77-918b-e8896c68b6b7")
+	)
+	(fp_text user "+"
+		(at 2.25 17.25 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "1d202563-112e-4e74-b9f3-55e8f894a67d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "IN"
+		(at 6.711 0.621 180)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "2b016f65-4d35-4bfc-befa-645eab5bb209")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "+"
+		(at 2.25 1.75 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "59ebdfa1-09c1-4c8f-b21e-7f1c9b5d9995")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "-"
+		(at 8.25 1.75 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "5af4c6ed-a735-4098-80bb-18fe2d769900")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "OUT"
+		(at 7.346 16.115 180)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "df0af6ea-b6a4-461b-a84b-327335b0a3f7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "-"
+		(at 8.25 17.25 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "f43d6de7-9acb-4c81-b282-ab4b9fb9a09a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 1.25 1.25)
+		(size 2 2)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "be9ec708-d0ec-4fef-947b-0cc37c6e8c51")
+	)
+	(pad "2" thru_hole circle
+		(at 10.75 1.25)
+		(size 2 2)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "10225f29-d74c-4630-a7f8-ea2246604909")
+	)
+	(pad "3" thru_hole circle
+		(at 1.25 16.75)
+		(size 2 2)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "57c93562-bd7a-4240-9b48-7a74cfaa49fc")
+	)
+	(pad "4" thru_hole circle
+		(at 10.75 16.75)
+		(size 2 2)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "0cd972df-080f-455c-9309-836b900ef16b")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/custom_libraries/custom_footprints/3d_models/Mini360.step"
+		(offset
+			(xyz 5.5 -8.75 -16)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 -180)
+		)
+	)
+	(model "C:/Users/ramir/Downloads/ARCHIVOS 3D KICAD/Mini360.step"
+		(offset
+			(xyz 6.5 -9.25 -15.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)

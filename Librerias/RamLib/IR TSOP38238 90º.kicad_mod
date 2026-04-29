@@ -1,0 +1,283 @@
+(footprint "IR TSOP38238 90º"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "IR Receiver Vishay TSOP-xxxx, MINICAST package, see https://www.vishay.com/docs/82669/tsop32s40f.pdf")
+	(tags "IR Receiver Vishay TSOP-xxxx MINICAST")
+	(property "Reference" "U1"
+		(at 2.45 -4.1 180)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "75665cf7-3adb-46ca-a832-8438fe617123")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "TSOP382xx"
+		(at 2.55 4.6 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e7b793db-b0a2-47ec-8f76-7867e165313d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "custom_footprints:IR TSOP38238 90º"
+		(at 0.55 6.45 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "89c094db-09ef-41da-99f2-85eb4c17d5e5")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "http://www.vishay.com/docs/82491/tsop382.pdf"
+		(at 1 -6.1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "dd7c265a-99b2-4197-b0e1-5ecfcc181ac2")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" " "
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f205c167-7756-409e-a8cb-209c0659f92f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start 5.14 -1.51)
+		(end 2.54 -1.51)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "55617561-0fbd-4f9a-8e56-4583f89fc04d")
+	)
+	(fp_line
+		(start 5.14 -1.16)
+		(end 5.14 -1.51)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2e147625-e851-4825-b48b-1ef8ec1e5589")
+	)
+	(fp_line
+		(start 5.14 1.16)
+		(end 5.14 1.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5c4e239d-c677-49ae-a6b2-d25ea4134822")
+	)
+	(fp_line
+		(start 5.14 1.5)
+		(end 0.05 1.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "df3a1867-029c-4253-82ae-b9a8bf49f555")
+	)
+	(fp_arc
+		(start 4.64 1.5)
+		(mid 2.540869 3.502379)
+		(end 0.440083 1.501736)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a06f08c9-5795-4abb-84d2-06163a73d57b")
+	)
+	(fp_line
+		(start -1.15 -1.65)
+		(end -1.15 3.7)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "f394e580-ae65-4262-be69-be422e8197da")
+	)
+	(fp_line
+		(start -1.15 -1.65)
+		(end 6.23 -1.65)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "3c506692-3a6d-49d5-960a-4ba819c2dc35")
+	)
+	(fp_line
+		(start 6.23 3.7)
+		(end -1.15 3.7)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "fba3185c-c8b6-421d-a464-07ee74e9f2e3")
+	)
+	(fp_line
+		(start 6.23 3.7)
+		(end 6.23 -1.65)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "2c7f9b11-b337-4a2b-ba9e-2f3718070cfb")
+	)
+	(fp_line
+		(start 0.04 1.4)
+		(end 0.04 -0.65)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "4dd11452-7535-4d63-ae5f-7f7d88637b3c")
+	)
+	(fp_line
+		(start 0.79 -1.4)
+		(end 0.04 -0.65)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ba5a17db-f3fd-44de-8545-eddb6d471942")
+	)
+	(fp_line
+		(start 0.79 -1.4)
+		(end 5.04 -1.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "3f81dad5-2de2-4029-8d7c-f049bcb6213f")
+	)
+	(fp_line
+		(start 5.04 -1.4)
+		(end 5.04 1.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "16b107b8-b0c4-411c-8f6e-40dc3791b851")
+	)
+	(fp_line
+		(start 5.04 1.4)
+		(end 0.04 1.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "7fb9e3c0-69af-4234-bc04-219a29097e24")
+	)
+	(fp_arc
+		(start 4.54 1.4)
+		(mid 2.54 3.4)
+		(end 0.54 1.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "4c43b921-061b-4605-b354-cd5a386ce045")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 2.25 -2.55 180)
+		(layer "F.Fab")
+		(uuid "753ac39e-2367-4c45-91a1-5780547dd6ec")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole roundrect
+		(at 0 0)
+		(size 1.8 1.8)
+		(drill 0.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.139)
+		(uuid "f8e456f1-8997-4563-b420-cf1f3a65bec6")
+	)
+	(pad "2" thru_hole circle
+		(at 2.54 0)
+		(size 1.8 1.8)
+		(drill 0.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "b30705dd-f6c8-452e-a7ef-d955898d670a")
+	)
+	(pad "3" thru_hole circle
+		(at 5.08 0)
+		(size 1.8 1.8)
+		(drill 0.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "e647c9aa-3979-4f09-8b51-c36718d45c7d")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/OptoDevice.3dshapes/Vishay_MINICAST-3Pin.wrl"
+		(hide yes)
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+	(model "${KIPRJMOD}/custom_libraries/custom_footprints/3d_models/TSOP38238 90º.step"
+		(offset
+			(xyz -0.4 1.7 3.7)
+		)
+		(scale
+			(xyz 1.16 1.08 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

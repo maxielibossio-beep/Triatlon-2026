@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "Nodemcu Esp32")(type "KiCad")(uri "C:/Users/Masi/Desktop/Triatlon-2026/Librerias/Nodemcu Esp32.kicad_sym")(options "")(descr ""))
+)

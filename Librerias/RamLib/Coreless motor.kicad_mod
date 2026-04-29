@@ -1,0 +1,350 @@
+(footprint "Coreless motor"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "1d016a6e-781d-4068-b944-a19882deda73")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Coreless motor"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "29584ad8-af08-4c1d-8bd8-f96bc3834284")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "69c6bdc2-2bf9-43f3-babc-d10c3b8b9067")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2a1b61f4-6c0d-4ef8-9ea1-c3094e2fcc7e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -14.5 -7.5)
+		(end -14.5 7.5)
+		(stroke
+			(width 0.3048)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "65d8a662-a041-4d58-8e80-550faa721d70")
+	)
+	(fp_line
+		(start -14.5 7.5)
+		(end 14.5 7.5)
+		(stroke
+			(width 0.3048)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d34547b2-6bfe-4289-a45a-8626c3e1d869")
+	)
+	(fp_line
+		(start -12.75 0)
+		(end -7.75 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "96c2a932-c430-4cac-b6bf-98153c16bed0")
+	)
+	(fp_line
+		(start -10.25 -2.5)
+		(end -10.25 2.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "49a91e61-93c0-48ce-9285-e4822410b6bd")
+	)
+	(fp_line
+		(start -2 -7.5)
+		(end -2 7.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "1e517eb7-ef45-4efb-b742-f20040edbe58")
+	)
+	(fp_line
+		(start 2 -7.5)
+		(end 2 7.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "290adf7c-588f-43df-a620-9db7d868f799")
+	)
+	(fp_line
+		(start 7.75 0)
+		(end 12.75 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e0613f07-7f7b-4a27-a59c-e985853e2d54")
+	)
+	(fp_line
+		(start 10.25 -2.5)
+		(end 10.25 2.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "643d2581-a9c7-49c7-8919-94193f3331c6")
+	)
+	(fp_line
+		(start 14.5 -7.5)
+		(end -14.5 -7.5)
+		(stroke
+			(width 0.3048)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "dffc449e-83e8-4e90-9e40-bab37fad466f")
+	)
+	(fp_line
+		(start 14.5 7.5)
+		(end 14.5 -7.5)
+		(stroke
+			(width 0.3048)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2eb8075a-9436-4eed-8226-5e0e771ab5eb")
+	)
+	(fp_circle
+		(center -10.25 0)
+		(end -7.75 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "d52a0293-2715-406e-8218-44cf87cefd17")
+	)
+	(fp_circle
+		(center 10.25 0)
+		(end 12.75 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "89c8528d-4fb8-4f69-9cde-ba5629ffeda9")
+	)
+	(fp_line
+		(start -10.25 -2.5)
+		(end -10.25 2.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "B.SilkS")
+		(uuid "2ffb399e-e2a7-474d-b2b7-b29fa38cc3f8")
+	)
+	(fp_line
+		(start -7.75 0)
+		(end -12.75 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "B.SilkS")
+		(uuid "348ca300-cb99-489c-b352-4461bc620e47")
+	)
+	(fp_line
+		(start 10.25 -2.5)
+		(end 10.25 2.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "B.SilkS")
+		(uuid "741dbe2f-5a09-4e12-8cf0-67ccdb2480cb")
+	)
+	(fp_line
+		(start 12.75 0)
+		(end 7.75 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "B.SilkS")
+		(uuid "32fdaa2e-d442-40e9-9227-d8aa3a89b5b0")
+	)
+	(fp_circle
+		(center -10.25 0)
+		(end -12.75 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "B.SilkS")
+		(uuid "8f37a5d1-caf5-4789-ace2-9a7f0fbcdad1")
+	)
+	(fp_circle
+		(center 10.25 0)
+		(end 7.75 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "B.SilkS")
+		(uuid "c390606b-a9ae-46a6-8bb2-22791778ec16")
+	)
+	(fp_line
+		(start -23 -30.5)
+		(end -23 -7.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "d50ed346-9060-49a1-a236-80a8bd30be3a")
+	)
+	(fp_line
+		(start -23 -7.5)
+		(end -2 -7.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "d1044d37-b4ee-427d-8c9a-db3d37ac1f44")
+	)
+	(fp_line
+		(start -2 -30.5)
+		(end -23 -30.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "22453470-aed1-4e98-8bf9-68fb9814a08a")
+	)
+	(fp_line
+		(start -2 -30.5)
+		(end -2 -7.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "8ba43baf-d9e2-4f9d-9110-6858955c44b3")
+	)
+	(fp_line
+		(start 2 -30.5)
+		(end 2 -7.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "b19cd920-af4b-4b7b-9c06-7634d0760bd1")
+	)
+	(fp_line
+		(start 2 -30.5)
+		(end 23 -30.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "b3d6895d-57bd-41e9-b9a5-dbdd3397a9d6")
+	)
+	(fp_line
+		(start 23 -30.5)
+		(end 23 -7.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "7b091e0d-16a5-495c-90cd-d99196e83484")
+	)
+	(fp_line
+		(start 23 -7.5)
+		(end 2 -7.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "9d090cf2-517a-4b58-bbc0-c87a0602095e")
+	)
+	(pad "" thru_hole circle
+		(at 10.25 0)
+		(size 3 3)
+		(drill 3)
+		(layers "*.Cu" "F.SilkS")
+		(remove_unused_layers no)
+		(uuid "d1ed029e-5f13-4f6c-88aa-fdd632f86484")
+	)
+	(pad "1" thru_hole circle
+		(at -10.25 0)
+		(size 3 3)
+		(drill 3)
+		(layers "*.Cu" "F.SilkS")
+		(remove_unused_layers no)
+		(uuid "c08c7cb4-65d3-4e0e-aaf7-fa532ca4ed95")
+	)
+	(embedded_fonts no)
+	(model "C:/Users/ramir/Downloads/V3 wheel assembly.STEP"
+		(offset
+			(xyz 11 -0.5 -50)
+		)
+		(scale
+			(xyz 0.8 1 0.6)
+		)
+		(rotate
+			(xyz -90 -0 180)
+		)
+	)
+)

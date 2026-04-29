@@ -1,0 +1,179 @@
+(footprint "Taiyo-Yuden_NR5040T330M"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -0.000015 -3.816885 0)
+		(layer "F.SilkS")
+		(uuid "705b2aec-ee82-4855-bf8e-d542053fcb38")
+		(effects
+			(font
+				(size 1.001803 1.001803)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Taiyo-Yuden_NR5040T330M"
+		(at 6.10723 3.68979 0)
+		(layer "F.Fab")
+		(uuid "ab69171a-fd6e-4c91-8d41-d9137f876a00")
+		(effects
+			(font
+				(size 1.001843 1.001843)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "256916ca-25f8-49b6-9a68-db0aa6d4eb22")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "974c8357-587f-4aea-b41a-2d40f327e2e6")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2.45 -2.45)
+		(end 2.45 -2.45)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "68c3c7ff-156d-4fa0-867a-8ac1078dec65")
+	)
+	(fp_line
+		(start 2.45 2.45)
+		(end -2.45 2.45)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "45706ce7-6d5a-4871-aba2-006d3838d532")
+	)
+	(fp_line
+		(start -2.8 -2.7)
+		(end 2.8 -2.7)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "5e9bbef4-e859-4acf-afb7-bcc495102921")
+	)
+	(fp_line
+		(start -2.8 2.7)
+		(end -2.8 -2.7)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "c80a0ce4-bfd5-4240-ada7-17cedfc26dd1")
+	)
+	(fp_line
+		(start 2.8 -2.7)
+		(end 2.8 2.7)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "607a65c3-9b38-486a-853b-0b7c0f388d33")
+	)
+	(fp_line
+		(start 2.8 2.7)
+		(end -2.8 2.7)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "6cd0a89a-af49-4d7b-983d-6ccb34ce9c42")
+	)
+	(fp_line
+		(start -2.45 -2.45)
+		(end 2.45 -2.45)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8a01a40b-c51e-4262-a6f3-e114ab94bb3d")
+	)
+	(fp_line
+		(start -2.45 2.45)
+		(end -2.45 -2.45)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c7bc856a-34b2-4d54-872e-42610e31b728")
+	)
+	(fp_line
+		(start 2.45 -2.45)
+		(end 2.45 2.45)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "4146e10d-597a-48e2-a112-287b757661e3")
+	)
+	(fp_line
+		(start 2.45 2.45)
+		(end -2.45 2.45)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "be798ad3-55dd-4938-926a-d605d9e684d1")
+	)
+	(pad "1" smd rect
+		(at -1.8 0)
+		(size 1.5 4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "6a1893a7-d336-4550-a81f-1bdfc76fcc99")
+	)
+	(pad "2" smd rect
+		(at 1.8 0)
+		(size 1.5 4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "2cbcee19-f675-48dd-a5d9-489fca2c0e7c")
+	)
+	(embedded_fonts no)
+	(model "${KICAD_MIXLIB}/MixLib.3dshapes/NR5040T330M.step"
+		(offset
+			(xyz 0 0 4)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 90)
+		)
+	)
+)

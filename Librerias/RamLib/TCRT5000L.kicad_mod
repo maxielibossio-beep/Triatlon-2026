@@ -1,0 +1,254 @@
+(footprint "TCRT5000L"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "TCRT5000L")
+	(tags "Integrated Circuit")
+	(property "Reference" "IC**"
+		(at -0.432 -0.015 0)
+		(layer "F.SilkS")
+		(uuid "86d15079-60a6-4487-832c-1cdc821d8c55")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "TCRT5000L"
+		(at -0.432 -0.015 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "3a951f38-2033-4a20-8507-4305e8758c80")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Footprint" "TCRT5000L"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8b271e43-0f8b-4741-af74-cd03dac3f45f")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6c1c43af-c50d-4eae-b15d-b023ac38ca99")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d8a8be84-f540-407b-9f16-7adfd7f1160c")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -5.1 -2.9)
+		(end -5.1 1.9)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "f1ed915b-7a7c-4435-842f-3620d298a3c3")
+	)
+	(fp_line
+		(start -5.1 -2.9)
+		(end -1.5 -2.9)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "988eac14-2a56-49a6-940a-1f7d8164af6a")
+	)
+	(fp_line
+		(start -1.5 2.9)
+		(end -4.1 2.9)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "eed1b352-acd7-48b6-a21e-42386d4a9210")
+	)
+	(fp_line
+		(start 5.1 -2.9)
+		(end 1.5 -2.9)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "46ac5175-14a4-4b98-bd23-0095ea689d37")
+	)
+	(fp_line
+		(start 5.1 2.9)
+		(end 1.5 2.9)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "54ae2d25-e5bd-462a-becd-1cd855a07871")
+	)
+	(fp_line
+		(start 5.1 2.9)
+		(end 5.1 -2.9)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "dbbb616e-6d81-4385-a9fe-7bf1d07b6849")
+	)
+	(fp_circle
+		(center -2.79 -3.492)
+		(end -2.79 -3.434)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "40559df9-ebbd-4136-9d10-5f75e4bc35f8")
+	)
+	(fp_line
+		(start -5.1 -2.9)
+		(end 5.1 -2.9)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b9dd9085-dd2b-41f3-a21c-87d470e28776")
+	)
+	(fp_line
+		(start -5.1 2.9)
+		(end -5.1 -2.9)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "fd9ca5a5-52d2-4676-8cad-3a512bb1af40")
+	)
+	(fp_line
+		(start 5.1 -2.9)
+		(end 5.1 2.9)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "bd6a382c-a4ce-4d4d-b5e4-ec6ec158bfde")
+	)
+	(fp_line
+		(start 5.1 2.9)
+		(end -5.1 2.9)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8cd72d7d-b416-4d1d-9b24-5cdfc828de9f")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -0.432 -0.015 0)
+		(layer "F.Fab")
+		(uuid "8809a4c3-8f94-4e35-a276-b053fde85211")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at -4.65 2.45)
+		(size 1 1)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(uuid "838359c0-8a41-46a5-85dc-eb86b8a7b516")
+	)
+	(pad "" np_thru_hole circle
+		(at 0 -1.9)
+		(size 2.5 2.5)
+		(drill 2.5)
+		(layers "*.Cu" "*.Mask")
+		(uuid "923fb2c7-170a-48aa-b569-e0808054acce")
+	)
+	(pad "" np_thru_hole circle
+		(at 0 1.9)
+		(size 2.5 2.5)
+		(drill 2.5)
+		(layers "*.Cu" "*.Mask")
+		(uuid "b6add0d6-57cc-4a24-a03e-a09eb193e81f")
+	)
+	(pad "1" thru_hole rect
+		(at -2.75 -1.27)
+		(size 2.1 1.55)
+		(drill 0.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "4af8f7c5-2ee5-4bd1-91fa-b45e16ae9cc3")
+	)
+	(pad "2" thru_hole oval
+		(at -2.75 1.27)
+		(size 2.1 1.55)
+		(drill 0.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "3fd0fc60-c51c-4601-9ec8-567d34e0dea5")
+	)
+	(pad "3" thru_hole oval
+		(at 2.75 1.27)
+		(size 2.1 1.55)
+		(drill 0.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "d555dfc5-93e1-42f6-ade8-157a0a264e77")
+	)
+	(pad "4" thru_hole oval
+		(at 2.75 -1.27)
+		(size 2.1 1.55)
+		(drill 0.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "26d651f1-7fe0-4cd8-815c-cea5689b6f21")
+	)
+	(model "TCRT5000L.stp"
+		(offset
+			(xyz -3.539999909 5.550000107 9.970000117)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -180 0 0)
+		)
+	)
+)

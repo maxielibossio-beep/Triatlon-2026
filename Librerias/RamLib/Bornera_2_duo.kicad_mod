@@ -1,0 +1,183 @@
+(footprint "Bornera_2_duo"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "2-way 5.08mm pitch terminal block, Phoenix MKDS series")
+	(property "Reference" "BORNERA2"
+		(at 0 -6.7 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "7a3e3673-04a3-40de-8c80-48c9ec07ce9d")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+			)
+		)
+	)
+	(property "Value" "J**"
+		(at 0 5.8 0)
+		(layer "F.SilkS")
+		(uuid "bda48547-bd2f-497d-96a5-eeaf16809a8f")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "320858b2-fefb-4601-99aa-7faf75fac1bf")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "51c1b5dc-2b24-4d43-85f0-cdadfccd4d64")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2f820786-53b6-414e-a582-e2d33d5d531c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -5.0165 -4.445)
+		(end -5.0165 3.4925)
+		(stroke
+			(width 0.381)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "98a36eb2-c797-4d59-8d2c-85987f5abdaa")
+	)
+	(fp_line
+		(start -5 2.46)
+		(end 5 2.46)
+		(stroke
+			(width 0.381)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "dee7cf73-3ac2-45a7-85b8-29d197b2da72")
+	)
+	(fp_line
+		(start -4.9835 3.4925)
+		(end 5.0165 3.4925)
+		(stroke
+			(width 0.381)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c15e9377-4ec6-47b6-8f89-a53633737f92")
+	)
+	(fp_line
+		(start -2.55 3.4125)
+		(end -2.55 2.4875)
+		(stroke
+			(width 0.381)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "ada3aee0-0184-48c3-a77d-d047477d98ae")
+	)
+	(fp_line
+		(start 2.55 3.4)
+		(end 2.55 2.5)
+		(stroke
+			(width 0.381)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "0ba3fe7e-08df-4398-98f3-f0fd915d0f4d")
+	)
+	(fp_line
+		(start 5.0165 -4.445)
+		(end -4.9835 -4.445)
+		(stroke
+			(width 0.381)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "48545dac-e514-4133-85f5-23d6ac7e71e9")
+	)
+	(fp_line
+		(start 5.0165 3.4925)
+		(end 5.0165 -4.445)
+		(stroke
+			(width 0.381)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1e7304b9-2395-4bbd-9467-2b30afd4597d")
+	)
+	(pad "1" thru_hole circle
+		(at -2.54 0)
+		(size 3 3)
+		(drill 1.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "8aa2eb03-45ee-480e-ac27-6ea2fdfaa490")
+	)
+	(pad "1" thru_hole circle
+		(at -1.27 -1.27)
+		(size 1.75 1.75)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "2beaca92-8d53-4b61-8d0d-9bf9ef682dfe")
+	)
+	(pad "2" thru_hole circle
+		(at 1.27 -1.27)
+		(size 1.75 1.75)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "23a3c0ad-26cf-4b21-8312-bc9ffe30613f")
+	)
+	(pad "2" thru_hole circle
+		(at 2.54 0)
+		(size 3 3)
+		(drill 1.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "385b92b1-8d9a-4110-9338-15c854fb5f57")
+	)
+	(model "${KICAD8_3DMODEL_EESTN5}/Bornera2_Azul.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

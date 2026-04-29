@@ -1,0 +1,82 @@
+(footprint "ZoroBot3_Power_MPU"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Through hole straight pin header, 1x05, 2.54mm pitch, single row")
+	(tags "Through hole pin header THT 1x05 2.54mm single row")
+	(property "Reference" "POWER_MPU2"
+		(at -6.55 1.78 -90)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "8a3d9155-1982-4e63-95ef-b8249467251f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Conn_01x02_Socket"
+		(at 0 12.49 180)
+		(layer "F.Fab")
+		(uuid "e6a5799d-2e3e-46c6-9c1d-bf52864666d6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "custom_footprints:ZoroBot3_Power_MPU"
+		(at 0.1 -4.8 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a8a86248-6aac-4447-9c90-6db1381f0117")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0.05 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "56ddfb9c-02aa-4d1d-b8ab-da06eb58cc31")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Generic connector, single row, 01x02, script generated"
+		(at 0.3 -3.2 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a6628bf5-ed61-49d8-86ce-96dab6bbdde9")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(pad "1" smd roundrect
+		(at 0 -0.62)
+		(size 1.5 0.7)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.1666666667)
+		(uuid "d993e6c8-c02c-4a6f-a4da-d8672f07bf42")
+	)
+	(pad "2" smd roundrect
+		(at 0 0.65)
+		(size 1.5 0.7)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.1666666667)
+		(uuid "d8e74c10-ec22-4775-8b1b-0942c766d7e8")
+	)
+)

@@ -1,0 +1,324 @@
+(footprint "DRV8833_MODULE"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "VAL**"
+		(at 0 3.175 0)
+		(layer "F.SilkS")
+		(uuid "e248c5e2-3946-4da4-9738-20d0c1ab4c23")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "DRV8833_MODULE"
+		(at 0 -2.54 0)
+		(layer "F.Fab")
+		(uuid "a4fbba4c-208d-41e0-829e-fdd6979d733a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f32d7087-3fa8-4072-99c2-96739fd908f7")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f972d6f5-492d-45d9-a17c-eb86c61026a2")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "43418b5c-761e-4ec2-9b8b-318f03d9fecd")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -8.89 -7.62)
+		(end -6.35 -7.62)
+		(stroke
+			(width 0.3)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8ec823ce-7734-4896-8aef-4cf9de144d1b")
+	)
+	(fp_line
+		(start -8.89 7.62)
+		(end -8.89 -7.62)
+		(stroke
+			(width 0.3)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c13dfc50-6cb9-422e-817f-70068091dda1")
+	)
+	(fp_line
+		(start -8.89 7.62)
+		(end -6.35 7.62)
+		(stroke
+			(width 0.3)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "032d6311-493e-4525-81ab-171fbf0dc26e")
+	)
+	(fp_line
+		(start -6.35 -7.62)
+		(end -6.35 7.62)
+		(stroke
+			(width 0.3)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "192160d3-6f96-4e31-8103-b21d0f3a53df")
+	)
+	(fp_line
+		(start -6.35 -7.62)
+		(end 6.35 -7.62)
+		(stroke
+			(width 0.3)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "faf2cc1c-4707-4192-8b97-9eab06a17201")
+	)
+	(fp_line
+		(start -6.35 7.62)
+		(end 6.35 7.62)
+		(stroke
+			(width 0.3)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "387d60d8-fb58-4ecb-b525-fd010267d600")
+	)
+	(fp_line
+		(start -4.445 0)
+		(end 4.445 0)
+		(stroke
+			(width 0.3)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "87ee9dc3-4df6-4604-ab1b-c1374e9a45aa")
+	)
+	(fp_line
+		(start 4.445 0)
+		(end 2.54 -1.905)
+		(stroke
+			(width 0.3)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "48c6a8cb-00fa-4395-aa5d-f9d1316a3077")
+	)
+	(fp_line
+		(start 4.445 0)
+		(end 2.54 1.905)
+		(stroke
+			(width 0.3)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d08b4d38-fe7c-418b-9ab2-3f9bde0d09e0")
+	)
+	(fp_line
+		(start 6.35 -7.62)
+		(end 8.89 -7.62)
+		(stroke
+			(width 0.3)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4cc8032e-ec13-4cee-ab43-a90c489d6920")
+	)
+	(fp_line
+		(start 6.35 7.62)
+		(end 6.35 -7.62)
+		(stroke
+			(width 0.3)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c40e14cc-9120-46eb-b9fc-c6befb78cbf7")
+	)
+	(fp_line
+		(start 6.35 7.62)
+		(end 8.89 7.62)
+		(stroke
+			(width 0.3)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "96ceda8a-432f-476d-bc36-176291019aa3")
+	)
+	(fp_line
+		(start 8.89 -7.62)
+		(end 8.89 7.62)
+		(stroke
+			(width 0.3)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7a6e0724-7d4b-445d-abed-60053e67c32d")
+	)
+	(pad "1" thru_hole oval
+		(at -7.62 -6.35 90)
+		(size 1.524 2.1971)
+		(drill 0.99822)
+		(layers "*.Cu" "*.Mask" "F.SilkS")
+		(remove_unused_layers no)
+		(uuid "e5c65a1c-dff8-4718-8ce2-ca7c0ea799d3")
+	)
+	(pad "2" thru_hole oval
+		(at -7.62 -3.81 90)
+		(size 1.524 2.1971)
+		(drill 0.99822)
+		(layers "*.Cu" "*.Mask" "F.SilkS")
+		(remove_unused_layers no)
+		(uuid "ae6d75b8-097e-4146-b759-70e29a09c82f")
+	)
+	(pad "3" thru_hole oval
+		(at -7.62 -1.27 90)
+		(size 1.524 2.1971)
+		(drill 0.99822)
+		(layers "*.Cu" "*.Mask" "F.SilkS")
+		(remove_unused_layers no)
+		(uuid "0d846413-04ae-4e64-995b-8f3030268b5c")
+	)
+	(pad "4" thru_hole oval
+		(at -7.62 1.27 90)
+		(size 1.524 2.1971)
+		(drill 0.99822)
+		(layers "*.Cu" "*.Mask" "F.SilkS")
+		(remove_unused_layers no)
+		(uuid "8503d24a-13a9-4e06-9ea9-0af3a7fa5113")
+	)
+	(pad "5" thru_hole oval
+		(at -7.62 3.81 90)
+		(size 1.524 2.1971)
+		(drill 0.99822)
+		(layers "*.Cu" "*.Mask" "F.SilkS")
+		(remove_unused_layers no)
+		(uuid "85901cc4-68c9-4e1a-9916-c56161fdb9d0")
+	)
+	(pad "6" thru_hole oval
+		(at -7.62 6.35 90)
+		(size 1.524 2.1971)
+		(drill 0.99822)
+		(layers "*.Cu" "*.Mask" "F.SilkS")
+		(remove_unused_layers no)
+		(uuid "bb882e9f-c51f-4f19-adb3-9e267737db9f")
+	)
+	(pad "7" thru_hole oval
+		(at 7.62 6.35 90)
+		(size 1.524 2.1971)
+		(drill 0.99822)
+		(layers "*.Cu" "*.Mask" "F.SilkS")
+		(remove_unused_layers no)
+		(uuid "111803ed-1dea-4dae-adc5-beaa14797fec")
+	)
+	(pad "8" thru_hole oval
+		(at 7.62 3.81 90)
+		(size 1.524 2.1971)
+		(drill 0.99822)
+		(layers "*.Cu" "*.Mask" "F.SilkS")
+		(remove_unused_layers no)
+		(uuid "47b5830d-6f7c-4a4a-b92e-8b896f560c2e")
+	)
+	(pad "9" thru_hole oval
+		(at 7.62 1.27 90)
+		(size 1.524 2.1971)
+		(drill 0.99822)
+		(layers "*.Cu" "*.Mask" "F.SilkS")
+		(remove_unused_layers no)
+		(uuid "9fbf617a-34f1-4613-8337-21b88d9c9aa7")
+	)
+	(pad "10" thru_hole oval
+		(at 7.62 -1.27 90)
+		(size 1.524 2.1971)
+		(drill 0.99822)
+		(layers "*.Cu" "*.Mask" "F.SilkS")
+		(remove_unused_layers no)
+		(uuid "6e9d8d3c-65de-4513-bf53-9ffbc24de478")
+	)
+	(pad "11" thru_hole oval
+		(at 7.62 -3.81 90)
+		(size 1.524 2.1971)
+		(drill 0.99822)
+		(layers "*.Cu" "*.Mask" "F.SilkS")
+		(remove_unused_layers no)
+		(uuid "2dfcf64b-b720-4ee9-a587-1a8520e40942")
+	)
+	(pad "12" thru_hole oval
+		(at 7.62 -6.35 90)
+		(size 1.524 2.1971)
+		(drill 0.99822)
+		(layers "*.Cu" "*.Mask" "F.SilkS")
+		(remove_unused_layers no)
+		(uuid "f43d4d07-8668-499d-96f2-4e29c0373a24")
+	)
+	(model "HBridgeDRV8833.step"
+		(offset
+			(xyz -9.2 8.1 9.7)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -180 0 0)
+		)
+	)
+	(model "Pin_socket_6.wrl"
+		(offset
+			(xyz -7.5 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 90)
+		)
+	)
+	(model "Pin_socket_6.wrl"
+		(offset
+			(xyz 7.5 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 90)
+		)
+	)
+)

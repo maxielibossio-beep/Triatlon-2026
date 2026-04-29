@@ -1,0 +1,173 @@
+(footprint "LED_D5.0mm-4_RGB_Staggered_Pins"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "LED, diameter 5.0mm, 4 pins, WP154A4, https://www.kingbright.com/attachments/file/psearch/000/00/00/L-154A4SUREQBFZGEW(Ver.11A).pdf")
+	(tags "rgb led")
+	(property "Reference" "LED1"
+		(at -0.1 -2.1 0)
+		(layer "F.SilkS")
+		(uuid "eeabdf88-7d7a-4180-bfee-9fd37bb4984b")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "~"
+		(at 2.667 4.722 0)
+		(layer "F.Fab")
+		(uuid "a40e7426-bf03-4780-860e-3e9313e0e6e2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "custom_footprints:LED_D5.0mm-4_RGB_Staggered_Pins"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0f440a1f-2fe7-4bbc-aec6-f81f3825b9be")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b904e1ea-f94d-4a01-8c40-d7e64c3067d2")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "90f0116d-c33d-414f-9e94-db193eec3d69")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -0.45 1.565625)
+		(end -0.45 1.940625)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "b8dabb2b-c73a-4e0a-b19d-25205ad73672")
+	)
+	(fp_line
+		(start -0.15 1.565625)
+		(end -0.15 2.228125)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "a660127c-ac33-4b90-ad4a-29e8d044c3e8")
+	)
+	(fp_line
+		(start 0.15 1.571875)
+		(end 0.15 1.978125)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "0f521de5-c1bd-45d7-b081-84ac341f2aff")
+	)
+	(fp_line
+		(start 0.45 1.571875)
+		(end 0.45 1.778125)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "5fbafbd5-5514-46c7-9ec0-7fc46cc24b5a")
+	)
+	(fp_arc
+		(start 1.574999 -1.899999)
+		(mid -0.092626 2.472561)
+		(end -1.698375 -1.923098)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "d523f90b-f463-4e31-aa70-677af0fc9fde")
+	)
+	(pad "1" thru_hole circle
+		(at -2.05 -0.7)
+		(size 1.5 1.5)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "c8619471-7837-453a-b3e4-ceaa9b407550")
+	)
+	(pad "2" thru_hole circle
+		(at -0.7 0.675)
+		(size 1.5 1.5)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "4b2d70fc-dd36-4ac6-ae61-bf4452289059")
+	)
+	(pad "3" thru_hole circle
+		(at 0.675 -0.7)
+		(size 1.5 1.5)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "fbf1a8ef-d4e9-4190-8dfc-5800b3f83cda")
+	)
+	(pad "4" thru_hole circle
+		(at 1.925 0.675)
+		(size 1.5 1.5)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "bec2b5d8-d8d4-4ab8-bebb-124813c7280b")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/LED_THT.3dshapes/LED_D5.0mm-4_RGB_Staggered_Pins.wrl"
+		(hide yes)
+		(offset
+			(xyz -2.1 0.8 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+	(model "${KIPRJMOD}/custom_libraries/custom_footprints/3d_models/WS2812D 5mm LED Staggered Pins.step"
+		(offset
+			(xyz 0 0 0.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

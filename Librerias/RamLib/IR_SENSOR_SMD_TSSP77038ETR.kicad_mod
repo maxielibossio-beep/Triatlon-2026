@@ -1,0 +1,226 @@
+(footprint "IR_SENSOR_SMD_TSSP77038ETR"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Through hole straight pin header, 1x05, 2.54mm pitch, single row")
+	(tags "Through hole pin header THT 1x05 2.54mm single row")
+	(property "Reference" "IR_RECIVER1"
+		(at 1.65 -3.45 180)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "a8d7eaae-5cc0-438b-9542-6ab6f1ce71b5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "~"
+		(at 0 12.49 180)
+		(layer "F.Fab")
+		(uuid "ab26b32c-bccd-413f-94e4-ad4e363b0f0c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "custom_footprints:IR_SENSOR_SMD_TSSP77038ETR"
+		(at 0 10.16 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a1c28d7e-01d7-4417-81cf-18bfead599e0")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at -0.2 2.4 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5245003a-e5ba-4a9f-ba64-e20f5feca82b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5546601d-f95a-4864-8e3c-e0cacb88c02a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Aliexpress" "https://es.aliexpress.com/item/1005007480444094.html"
+		(at 0 7.62 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f32fdca8-a7e6-4443-9210-359efbf2716c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.5 0.8)
+		(end -1.5 -2.3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4749de9d-ba3a-4053-b0d9-7ca3865e77d2")
+	)
+	(fp_line
+		(start -1.3 -2.5)
+		(end 5.1 -2.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "f03ce3cb-07d6-4ef9-8563-6a6ee8842956")
+	)
+	(fp_line
+		(start 5.1 1)
+		(end -1.3 1)
+		(stroke
+			(width 0.1)
+			(type dash)
+		)
+		(layer "F.SilkS")
+		(uuid "50853c36-42ad-44f3-bbf8-5c51460f3591")
+	)
+	(fp_line
+		(start 5.3 -2.3)
+		(end 5.3 0.8)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "359d6713-29d5-4d7f-a390-a7549c0a327e")
+	)
+	(fp_rect
+		(start -1.35 -2.35)
+		(end -0.55 -1.55)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "bbfab0de-b108-4646-8711-4461d211d4e9")
+	)
+	(fp_rect
+		(start 4.35 -2.35)
+		(end 5.15 -1.55)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "e698e3e5-d0b8-4476-a65a-c1fdad40ca2a")
+	)
+	(fp_arc
+		(start -1.5 -2.3)
+		(mid -1.441421 -2.441421)
+		(end -1.3 -2.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "ecfa9fa0-1f8e-43b0-988a-f9f84c5819b0")
+	)
+	(fp_arc
+		(start -1.3 1)
+		(mid -1.441421 0.941421)
+		(end -1.5 0.8)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "eab6270a-9d69-4060-b4fd-5300d52df3fe")
+	)
+	(fp_arc
+		(start 5.1 -2.5)
+		(mid 5.241421 -2.441421)
+		(end 5.3 -2.3)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "f53c96b9-ca25-4f9d-bcb7-37deb3c1b0f6")
+	)
+	(fp_arc
+		(start 5.3 0.8)
+		(mid 5.241421 0.941421)
+		(end 5.1 1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "0f3b40c4-d56d-44f1-8558-a4b563b25af4")
+	)
+	(pad "1" smd roundrect
+		(at 0 0 90)
+		(size 2 0.9)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.1666666667)
+		(uuid "7fd762cf-f838-425e-baff-63c33ac3a76d")
+	)
+	(pad "2" smd roundrect
+		(at 1.270001 0 90)
+		(size 2 0.9)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.1666666667)
+		(uuid "568c469e-41ca-4778-8f5c-14e4d79a893e")
+	)
+	(pad "3" smd roundrect
+		(at 2.54 0 90)
+		(size 2 0.9)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.1666666667)
+		(uuid "2ab70b59-a9c3-4b7b-9cfd-8e6d507cc8ae")
+	)
+	(pad "4" smd roundrect
+		(at 3.81 0 90)
+		(size 2 0.9)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.1666666667)
+		(uuid "901de829-bc30-45df-8bb3-a51401f0136e")
+	)
+	(model "${KIPRJMOD}/custom_libraries/custom_footprints/3d_models/IR TSSP77038ETR.step"
+		(offset
+			(xyz 1.9 1 0.2)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

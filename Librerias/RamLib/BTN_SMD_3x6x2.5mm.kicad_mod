@@ -1,0 +1,269 @@
+(footprint "BTN_SMD_3x6x2.5mm"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Light Touch Switch, https://industrial.panasonic.com/cdbs/www-data/pdf/ATK0000/ATK0000CE7.pdf")
+	(property "Reference" "BTN1"
+		(at 0 0 180)
+		(layer "F.SilkS")
+		(uuid "cb19b112-ac77-4666-a0ce-2eb7d6ace27c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "~"
+		(at 0 3 180)
+		(layer "F.Fab")
+		(uuid "14020859-95b0-4a96-90b9-16dab5b56467")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2c27efa7-3796-4f0a-bded-977771451a3b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f5d0071e-d69c-40d8-968e-7d2deca05cf6")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -3.1 -1.85)
+		(end -3.1 -1.2)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "295176c4-6f9a-4fba-ab7c-661362d73553")
+	)
+	(fp_line
+		(start -3.1 1.2)
+		(end -3.1 1.85)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f16a4ca8-3a06-45eb-b350-0d746ec8647e")
+	)
+	(fp_line
+		(start -3.1 1.85)
+		(end 3.1 1.85)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "12f60c6e-c641-4c21-97a2-e6540c9101ed")
+	)
+	(fp_line
+		(start 3.1 -1.85)
+		(end -3.1 -1.85)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d8c5ab23-b7d7-4fc6-8ce4-0ed1a2281757")
+	)
+	(fp_line
+		(start 3.1 -1.85)
+		(end 3.1 -1.2)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3662da2d-0b64-425b-8f47-f33e20f80902")
+	)
+	(fp_line
+		(start 3.1 1.85)
+		(end 3.1 1.2)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d2b5a863-d67d-41e7-a588-9b6fa449638c")
+	)
+	(fp_line
+		(start -3.95 -2)
+		(end 3.95 -2)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "d43c96cb-376d-4ea4-8893-c649daff2e98")
+	)
+	(fp_line
+		(start -3.95 2)
+		(end -3.95 -2)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "c50dfa75-620b-4b5a-bfd5-d2dc57dde79b")
+	)
+	(fp_line
+		(start 3.95 -2)
+		(end 3.95 2)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "59a482ac-ca8d-4d38-a7dc-668166d10042")
+	)
+	(fp_line
+		(start 3.95 2)
+		(end -3.95 2)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "b235668c-19cc-4abc-bab4-f4143322eb83")
+	)
+	(fp_line
+		(start -3 -1.75)
+		(end 3 -1.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ffe9f4ee-ac5a-4ab4-a56e-58d6a977de83")
+	)
+	(fp_line
+		(start -3 1.75)
+		(end -3 -1.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "69cae216-b84a-4fd3-a72f-fab323ed8e57")
+	)
+	(fp_line
+		(start -1.4 -0.7)
+		(end 1.4 -0.7)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b5317076-00c2-446a-85f4-23c1e55890d7")
+	)
+	(fp_line
+		(start -1.4 0.7)
+		(end -1.4 -0.7)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "1bea7767-9a30-4c6a-a4d4-7a525c99e639")
+	)
+	(fp_line
+		(start 1.4 -0.7)
+		(end 1.4 0.7)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "1624b403-f30b-4664-a0c3-83f21cfc92cc")
+	)
+	(fp_line
+		(start 1.4 0.7)
+		(end -1.4 0.7)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "531010cc-fd4c-4d2a-a0fd-5ee5ec407064")
+	)
+	(fp_line
+		(start 3 -1.75)
+		(end 3 1.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c60fa899-fbd6-4cc2-8767-17280d73b467")
+	)
+	(fp_line
+		(start 3 1.75)
+		(end -3 1.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "dfe75f0f-f6f4-4b7f-9e08-7bd3f448217f")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -2.65 180)
+		(layer "F.Fab")
+		(uuid "317bdb5c-3da3-4ed7-b627-58e73658b0f7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -2.7 0)
+		(size 2 1.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "825535e1-ac31-447a-98fb-ffafd15b59fc")
+	)
+	(pad "2" smd rect
+		(at 2.7 0)
+		(size 2 1.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "fb639818-3c74-4e85-9fd6-b264c462de4c")
+	)
+	(embedded_fonts no)
+	(model "C:/Users/ramir/Downloads/ARCHIVOS 3D KICAD/RS-032G05A3-SMRT.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)

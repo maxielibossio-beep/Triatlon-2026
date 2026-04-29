@@ -1,0 +1,248 @@
+(footprint "ESP32_supermini"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "ESP1"
+		(at 0.457999 -0.617 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "8939d91b-c25c-49e7-b60e-85eac1435825")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "~"
+		(at -1.123 0.037 90)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f972710c-523c-4678-bd8b-d87c4443c75d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "custom_footprints:ESP32_supermini"
+		(at 0.1 1.2 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5ccb8dc8-2452-4ecb-951d-b2e8612fc129")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0.1 1.2 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0d23e93a-465f-48c9-868f-df422c2b88ab")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0.1 1.2 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cfe9003f-981f-48d6-aa6b-2ebb0eee85ce")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_poly
+		(pts
+			(xy -8.686 -10.785) (xy 8.332 -10.785) (xy 8.332 12.075) (xy -8.686 12.075)
+		)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "6e377756-c75d-41dd-9e27-f5fb85fca868")
+	)
+	(fp_poly
+		(pts
+			(xy -2.463 -11.674) (xy 2.49 -11.674) (xy 2.49 -7.483) (xy -2.463 -7.483)
+		)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "51a6a228-cde4-49f0-b274-0e037cb3597b")
+	)
+	(pad "1" smd oval
+		(at -7.67 -8.88)
+		(size 3 1.6)
+		(drill
+			(offset -0.7 0)
+		)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "8fdb21b8-1cf0-4469-b8ae-487d677c1353")
+	)
+	(pad "2" smd oval
+		(at -7.67 -6.34)
+		(size 3 1.6)
+		(drill
+			(offset -0.7 0)
+		)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "348d5574-283f-4dcf-b6ec-6688b8638669")
+	)
+	(pad "3" smd oval
+		(at -7.670001 -3.8)
+		(size 3 1.6)
+		(drill
+			(offset -0.7 0)
+		)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "0a05fc54-099d-4b59-b234-b129c9817032")
+	)
+	(pad "4" smd oval
+		(at -7.67 -1.26)
+		(size 3 1.6)
+		(drill
+			(offset -0.7 0)
+		)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "f879fa2c-55b9-465d-bae5-17726b792971")
+	)
+	(pad "5" smd oval
+		(at -7.67 1.28)
+		(size 3 1.6)
+		(drill
+			(offset -0.7 0)
+		)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "f99d8db1-6501-4714-ae80-b2a4d858c33f")
+	)
+	(pad "6" smd oval
+		(at -7.67 3.82)
+		(size 3 1.6)
+		(drill
+			(offset -0.7 0)
+		)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "8e72b656-1158-4792-ae09-6cce975a2288")
+	)
+	(pad "7" smd oval
+		(at -7.67 6.359999)
+		(size 3 1.6)
+		(drill
+			(offset -0.7 0)
+		)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "db78bb2f-1164-4d06-a0b8-b982513f1681")
+	)
+	(pad "8" smd oval
+		(at -7.67 8.900001)
+		(size 3 1.6)
+		(drill
+			(offset -0.7 0)
+		)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "4d04ef7b-0516-454d-a1d6-c28f7ad5e451")
+	)
+	(pad "9" smd oval
+		(at 7.567 -8.88)
+		(size 3 1.6)
+		(drill
+			(offset 0.7 0)
+		)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "65adfab0-392f-4177-be88-56b46200eea6")
+	)
+	(pad "10" smd oval
+		(at 7.567 -6.34)
+		(size 3 1.6)
+		(drill
+			(offset 0.7 0)
+		)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "4bc1c822-56c4-470d-87a4-40d07a7f67d4")
+	)
+	(pad "11" smd oval
+		(at 7.566999 -3.8)
+		(size 3 1.6)
+		(drill
+			(offset 0.7 0)
+		)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "e50da9f6-8cf4-44e3-88fc-dae1e3de2d93")
+	)
+	(pad "12" smd oval
+		(at 7.567 -1.26)
+		(size 3 1.6)
+		(drill
+			(offset 0.7 0)
+		)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "d2e92230-a7b4-4fa3-8052-5a699e4d7ea7")
+	)
+	(pad "13" smd oval
+		(at 7.567 1.28)
+		(size 3 1.6)
+		(drill
+			(offset 0.7 0)
+		)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "5590281a-abbe-437f-94f0-6cfa263978b2")
+	)
+	(pad "14" smd oval
+		(at 7.567 3.82)
+		(size 3 1.6)
+		(drill
+			(offset 0.7 0)
+		)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "0cf4be2a-1d4c-40f7-b97d-b0506f984650")
+	)
+	(pad "15" smd oval
+		(at 7.567 6.359999)
+		(size 3 1.6)
+		(drill
+			(offset 0.7 0)
+		)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "9d1064b2-409a-4694-9cc2-8b81fec689a3")
+	)
+	(pad "16" smd oval
+		(at 7.567 8.900001)
+		(size 3 1.6)
+		(drill
+			(offset 0.7 0)
+		)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "1eb6eafa-5d12-4176-a833-f77c4613a810")
+	)
+	(model "${KIPRJMOD}/custom_libraries/custom_footprints/3d_models/ESP32-C3 supermini v5.step"
+		(offset
+			(xyz -20 -7.5 -3)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 180)
+		)
+	)
+)
