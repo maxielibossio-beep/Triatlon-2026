@@ -8629,7 +8629,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_AMASS:AMASS_XT60-F_1x02_P7.20mm_Vertical"
+		(property "Footprint" "RamLib2:XT30 connector"
 			(at 127 87.63 0)
 			(effects
 				(font
