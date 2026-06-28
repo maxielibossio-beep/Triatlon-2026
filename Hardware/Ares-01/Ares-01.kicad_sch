@@ -5039,22 +5039,22 @@
 	)
 	(global_label "COM"
 		(shape input)
-		(at 55.88 48.26 0)
+		(at 25.4 25.4 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "4de04d57-250b-45cc-a147-3bd196291f01")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 62.9171 48.26 0)
+			(at 18.3629 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)

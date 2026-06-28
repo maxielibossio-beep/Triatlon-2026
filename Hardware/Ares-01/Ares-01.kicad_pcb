@@ -94,7 +94,7 @@
 	(net 13 "unconnected-(ESP32-EN{slash}RESET-Pad2)")
 	(net 14 "unconnected-(ESP32-G15{slash}ADC13-Pad23)")
 	(net 15 "unconnected-(ESP32-G6-Pad20)")
-	(net 16 "unconnected-(ESP32-G36{slash}ADC0-Pad3)")
+	(net 16 "unconnected-(ESP32-G16{slash}RX2-Pad27)")
 	(net 17 "OUT5")
 	(net 18 "unconnected-(ESP32-G10{slash}TX1-Pad17)")
 	(net 19 "LPWM_2")
@@ -1725,7 +1725,7 @@
 			(drill 1)
 			(layers "*.Cu" "*.Mask" "F.SilkS")
 			(remove_unused_layers no)
-			(net 16 "unconnected-(ESP32-G36{slash}ADC0-Pad3)")
+			(net 30 "COM")
 			(pinfunction "G36/ADC0")
 			(pintype "bidirectional")
 			(uuid "0a18c2be-a04f-4c0e-a795-473824fa8b64")
@@ -1989,7 +1989,7 @@
 			(drill 1)
 			(layers "*.Cu" "*.Mask" "F.SilkS")
 			(remove_unused_layers no)
-			(net 30 "COM")
+			(net 16 "unconnected-(ESP32-G16{slash}RX2-Pad27)")
 			(pinfunction "G16/RX2")
 			(pintype "bidirectional")
 			(uuid "748e7fbe-d746-44a7-abeb-b39dca1709b3")
@@ -7645,7 +7645,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "0,1uf"
+		(property "Value" "100nF"
 			(at 0 -1.68 90)
 			(layer "B.Fab")
 			(uuid "0d0780e2-310c-424e-a3b5-e08cce40f8aa")
@@ -7851,7 +7851,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "0,1uf"
+		(property "Value" "100nF"
 			(at 0 -1.68 270)
 			(layer "B.Fab")
 			(uuid "cdb0da94-4941-4bab-a06e-148389355366")
@@ -8483,7 +8483,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "0,1 µF"
+		(property "Value" "100nF"
 			(at 0 -1.68 90)
 			(layer "B.Fab")
 			(uuid "8c0a99cd-74c0-4477-a85d-2f882e536a56")
@@ -9387,7 +9387,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "0,1 µF"
+		(property "Value" "100nF"
 			(at 0 -1.68 270)
 			(layer "B.Fab")
 			(uuid "ab67ef4c-7131-4599-9e91-783291828012")
